@@ -1,0 +1,22 @@
+BaseUI {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	.level-display {
+		position: absolute;
+		top: 15px;
+		left: 20px;
+		font-size: 100px;
+		font-family: Poppins, sans-serif;
+		font-weight: 700;
+		color: #00bfff; /* основной €ркий синий */
+		text-shadow: 2px 2px 0 #0050aa, /* тЄмна€ тень */
+		0 0 6px #00bfff; /* лЄгкое свечение */
+
+		padding: 6px 12px;
+		border-radius: 8px;
+	}
+}

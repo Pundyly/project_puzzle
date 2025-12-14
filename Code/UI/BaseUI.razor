@@ -1,0 +1,15 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="level-display">LVL: @gm.level</div>
+</root>
+
+@code
+{
+	[Property] public GameManager gm;
+
+	protected override int BuildHash() => System.HashCode.Combine(gm.level);
+}
